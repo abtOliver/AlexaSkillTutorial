@@ -6,9 +6,15 @@ const CustomHandler = {
     },
     handle(handlerInput) {
         
-        return handlerInput.responseBuilder
+        console.log(`handlerInput: ${JSON.stringify(handlerInput)}`);
+        
+         const handlerResponse = handlerInput.responseBuilder
             .speak('Willkommen bei "Hocus Pocus".')
             .getResponse();
+            
+        console.log(`handlerResponse: ${JSON.stringify(handlerResponse)}`);
+        
+        return handlerResponse;
     }
 };
 
