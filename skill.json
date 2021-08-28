@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": "hocus-pocus"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "de-DE": {}
+      }
+    },
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "de-DE": {
+          "description": "Alexa Skill Zauberei",
+          "examplePhrases": [
+            "Alexa, öffne Hocus Pocus"
+          ],
+          "keywords": [],
+          "name": "Hocus Pocus",
+          "summary": "Alexa Skill Zauberei"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
